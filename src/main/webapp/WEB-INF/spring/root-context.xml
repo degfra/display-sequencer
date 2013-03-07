@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+	<bean id="displayDocService"
+		class="com.lab4tech.displaysequencer.service.DisplayDocServiceImpl" />
+		
+<!-- 	<bean id="displayDocPreviewService" 
+		class="com.lab4tech.springdisplaytemplate.service.DisplayDocPreviewServiceImpl" />
+		
+	<bean id="groupingService" 
+		class="com.lab4tech.springdisplaytemplate.service.GroupingServiceImpl" />
+		
+	<bean id="groupingPreviewService" 
+		class="com.lab4tech.springdisplaytemplate.GroupingPreviewServiceImpl" />
+ -->		
+	<bean id="htmlParserService" 
+		class="com.lab4tech.displaysequencer.service.HtmlParserService" />
+		
+</beans>
